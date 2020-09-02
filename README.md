@@ -13,9 +13,8 @@
         <hr/>
         <section> <!-- SECCIÓN DE CONTACTOS Y TECNOLOGIAS UTILIZADAS -->
             <div id="yo">
-                <p align="center">La satisfacción radica en el esfuerzo, no en el logro. El esfuerzo total es una victoria completa
-                    (Mahatma Gandhi) 👨‍💻🖤</p>
-                <p align="center">Actualmente en busqueda activa de empleo 🤝</p>
+                <p align="center">El éxito en la vida no se mide <strong>por lo que logras,</strong> sino por los <strong>obstaculos que superas.</strong> 👨‍💻🖤</p>
+                <p align="center">🤝 Actualmente en busqueda activa de empleo 🤝</p>
             </div>
         </section>
             <hr/>
