@@ -3,66 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            justify-content: flex-start; /* Esto asegura que el contenido se alinee a la izquierda */
+        }
+        .content {
+            max-width: 600px;
+            margin-right: 20px; /* Separación entre el contenido y la imagen */
+        }
+        .image-container {
+            margin-left: 20px; /* Separación entre la imagen y el contenido */
+            align-items: center;
+        }
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact, .projects, .link {
+            margin-top: 30px;
+        }
+        .contact p, .projects p, .link p {
+            font-size: 1.1em;
+        }
+        .project-link {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
 </head>
-<body background="#d8d8d7">
-    <header align="center">
-        <!-- PRESENTACIÓN -->
-        <img src="https://i.imgur.com/rKiM1Py.jpg" />
-    </header>
-    <main>
-        <hr/>
-        <section> <!-- SECCIÓN DE CONTACTOS Y TECNOLOGIAS UTILIZADAS -->
-            <div id="yo">
-                <p align="center">El éxito en la vida no se mide <strong>por lo que logras,</strong> sino por los <strong>obstaculos que superas.</strong> 👨‍💻🖤</p>
-                <p align="center">🤝 Actualmente en busqueda activa de empleo 🤝</p>
-            </div>
-        </section>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>(●'◡'●)</h1>
+            <p>El éxito en la vida no se mide por lo que logras, sino por los obstáculos que superas. 👨‍💻🖤</p>
+            <p>👔 Trabajando actualmente en VIEWNEXT 🤝</p>
             <hr/>
-        <section>
-            <div id="row">
-                <div id="contactos" align="center">
-                    <h1 align="center">Mis Contactos</h1>
-                    <p align="center"><a href="https://www.linkedin.com/in/arturo-jerez-guerrero-baa21a177/" ><img
-                        src="https://devicons.github.io/devicon/devicon.git/icons/linkedin/linkedin-original.svg"
-                        alt="imagen-linkedin" width="72px" height="72px"></a></p>
-                    <p align="center"><img src="https://i.pinimg.com/originals/84/7c/08/847c083cc09040091439e3c05d1fedde.png"
-                                           alt="gmail" width="72px" height="72px" alt="gmail-image"/></p><br>
-                    <p align="center">xerezeno33@gmail.com</p>
-                </div>
-                <hr/>
-                <div id="tecnologias" align="center">
-                    <h1 align="center">Mis Tecnologías</h1>
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original.svg" alt="Java-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/php/php-plain.svg" alt="php-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-plain-wordmark.svg" alt="html5-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-plain-wordmark.svg" alt="css-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/jquery/jquery-original-wordmark.svg" alt="jquery-image" width="72px" height="72px">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/android/android-plain-wordmark.svg" alt="android-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-plain-wordmark.svg" alt="mysql-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-plain-wordmark.svg" alt="mongodb-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python-image" width="72px" height="72px">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/csharp/csharp-line.svg" alt="csharp-image" width="72px" height="72px">
-                    <img src="https://devicons.github.io/devicon/devicon.git/icons/wordpress/wordpress-plain-wordmark.svg" alt="wordpress-image" width="72px" height="72px">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/django/django-original.svg" alt="django-image" width="72px" height="72px">
-                    
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/sass/sass-original.svg" alt="sass-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/trello/trello-plain-wordmark.svg" alt="trello-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/visualstudio/visualstudio-plain-wordmark.svg" alt="vscode-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/typescript/typescript-original.svg" alt="typescript-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/npm/npm-original-wordmark.svg" alt="npm-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/photoshop/photoshop-line.svg" alt="ps-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/jetbrains/jetbrains-original.svg" alt="jetbrains-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/jasmine/jasmine-plain-wordmark.svg" alt="jasmine-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/ionic/ionic-original-wordmark.svg" alt="ionic-image" width="72px" height="72px">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7178157ef9aca1da403d1e73229a02af8571bd36/icons/nginx/nginx-original.svg" alt="nginx-image" width="72px" height="72px">
-  </div>
-</div>
-  </section>
-  </main>
-  <hr/>
-  <footer>Arturo Jerez Guerrero &copy; 2017-2020</footer>
+            <div class="contact">
+                <h2>📧 Contacto</h2>
+                <p><a href="mailto:xerezeno33info@gmail.com">xerezeno33info@gmail.com</a></p>
+            </div>
+            <div class="projects">
+                <h2>💻 Todos mis proyectos</h2>
+                <p><a href="https://github.com/ArturoJerez?tab=repositories" target="_blank">https://github.com/ArturoJerez?tab=repositories</a></p>
+            </div>
+            <div class="link">
+                <h2>📝 LinkedIn</h2>
+                <p><a href="www.linkedin.com/in/arturo-jerez-guerrero-baa21a177" target="_blank">www.linkedin.com/in/arturo-jerez-guerrero-baa21a177</a></p>
+            </div>
+            <hr/>
+        </div>
+        <div class="image-container">
+            <img src="https://img.freepik.com/fotos-premium/super-linda-ardilla-voladora-representada-al-estilo-dibujos-animados-generativos-pixar-ai_808510-489.jpg" alt="Mi Foto de Perfil">
+        </div>
+    </div>
+
 </body>
 </html>
